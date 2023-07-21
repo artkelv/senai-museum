@@ -1,0 +1,18 @@
+#sectionArts{
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.imgArts{
+    width: 100%;
+}
+nav > ul{
+    display: none;
+}
+#btnNav{
+    display: block;
+    width: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+}

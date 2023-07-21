@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#page{
+    width: 50vw;
+    margin: 0 auto;
+    background-color: rgb(223, 230, 233);
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b4a4a;
+    color: #fff;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 15px 0;
+}
+a{
+    text-decoration: none;
+    color: #cfcfcf;
+}
+a:hover{
+    border-bottom: 2px solid #eb7171;
+}
+#btnNav{
+    display: none;
+}
+#titlePage{
+    border-bottom: 2px solid #e62626;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding:10px;
+    color: #333;
+}
+#mainPost{
+    margin: 50px auto;
+    border: 1px solid #636363;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#titlePost{
+    color: #333;
+    margin: 15px 0;
+}
+#mainPhoto{
+    width: 100%;
+}
+#descriptionPost{
+    margin: 30px 0;
+    color: #666;
+    text-align: center;
+}
+#mainPost > button{
+    width: 150px;
+    background-color: #e74343;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#mainPost > button:hover{
+    background-color: #df0707;
+}
+#textRef{
+    color: #333;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#secondContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+#secondTitle{
+    border-bottom: 2px solid #e62626;
+    width: 80%;
+    text-align: center;
+    color: #333;
+    padding-bottom: 5px;
+}
+#sectionArts{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+}
+.boxArts{
+    border: 1px solid #999;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleArt{
+    margin-bottom: 10px;
+    color: #333;
+}
+.imgArts{
+    width: 200px;
+}
+.descriptionArt{
+    color: #636363;
+    margin: 10px 0;
+}
+.btnArt{
+    width: 150px;
+    background-color: #e74343;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.btnArt:hover{
+    background-color: #e61414;
+}
+/* @media screen and (min-width: 350px) and (max-width: 1400px) {
+    #sectionArts{
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+    .imgArts{
+        width: 100%;
+    }
+} */
